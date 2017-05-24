@@ -3,6 +3,7 @@ package com.ustc.se.bbs.serviceimpl;
 import java.util.TreeSet;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.ustc.se.bbs.dao.PostDao;
 import com.ustc.se.bbs.entity.Post;
@@ -17,6 +18,8 @@ import com.ustc.se.bbs.service.PostService;
  * @UpdateTime 2017年5月3日
  *
  */
+
+@Service("PostService")
 public class PostServiceImpl implements PostService {
 
 	@Autowired

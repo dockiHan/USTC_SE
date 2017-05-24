@@ -6,7 +6,7 @@
 		<id column="messageID" jdbcType="INTEGER" property="messageID"/>
 		<result column="messageSendName" jdbcType="VARCHAR" property="messageSendName"/>
 		<result column="messageTime" jdbcType="VARCHAR" property="messageTime"/>
-		<result column="messageUnread" jdbcType="INTEGAR" property="messageUnread"/>
+		<result column="messageUnread" jdbcType="INTEGER" property="messageUnread"/>
 		<result column="messageContent" jdbcType="VARCHAR" property="messageContent"/>
 		
 		<!-- 配置多对一关系 -->

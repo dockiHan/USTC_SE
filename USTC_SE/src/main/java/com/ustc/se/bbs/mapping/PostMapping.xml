@@ -8,7 +8,7 @@
 		<result column="postTitle" jdbcType="VARCHAR" property="postTitle"/>
 		<result column="postTime" jdbcType="VARCHAR" property="postTime"/>
 		<result column="postHits" jdbcType="INTEGER" property="postHits"/>
-		<result column="postContent" jdbcType="TEXT" property="postContent"/>
+		<result column="postContent" jdbcType="VARCHAR" property="postContent"/>
 		<result column="postLabel" jdbcType="VARCHAR" property="postLabel"/>
 		<!-- 配置多对一关系(一个Post对应一个User) -->
 		<association property="user" javaType="com.ustc.se.bbs.entity.User"

@@ -6,7 +6,7 @@
 		<id column="commentID" jdbcType="INTEGER" property="commentID"/>
 		<result column="commentFloor" jdbcType="INTEGER" property="commentFloor"/>
 		<result column="commentTime" jdbcType="VARCHAR" property="commentTime"/>
-		<result column="commentContent" jdbcType="TEXT" property="commentContent"/>
+		<result column="commentContent" jdbcType="VARCHAR" property="commentContent"/>
 		
 		<!-- 配置多对一关系 -->
 		<association property="user" javaType="com.ustc.se.bbs.entity.User" 

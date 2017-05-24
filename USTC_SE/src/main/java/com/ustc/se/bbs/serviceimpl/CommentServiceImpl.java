@@ -2,12 +2,16 @@ package com.ustc.se.bbs.serviceimpl;
 
 import java.util.TreeSet;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.ustc.se.bbs.dao.CommentDao;
 import com.ustc.se.bbs.entity.Comment;
 import com.ustc.se.bbs.service.CommentService;
 
+
+@Service("CommentService")
 public class CommentServiceImpl implements CommentService {
 
 	@Autowired

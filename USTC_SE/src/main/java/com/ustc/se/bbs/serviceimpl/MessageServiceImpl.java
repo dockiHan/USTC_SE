@@ -3,11 +3,13 @@ package com.ustc.se.bbs.serviceimpl;
 import java.util.TreeSet;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.ustc.se.bbs.dao.MessageDao;
 import com.ustc.se.bbs.entity.Message;
 import com.ustc.se.bbs.service.MessageService;
 
+@Service("MessageService")
 public class MessageServiceImpl implements MessageService {
 	
 	@Autowired
