@@ -1,5 +1,7 @@
 package com.ustc.se.bbs.dao;
 
+import org.springframework.stereotype.Repository;
+
 import com.ustc.se.bbs.entity.User;
 
 /**
@@ -11,6 +13,8 @@ import com.ustc.se.bbs.entity.User;
  * @UpdateTime 2017年5月2日
  *
  */
+
+@Repository("UserDao")
 public interface UserDao {
 	/**
 	 * 根据userID从数据库表中查询一条数据

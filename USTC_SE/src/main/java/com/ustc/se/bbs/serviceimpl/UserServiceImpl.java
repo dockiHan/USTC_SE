@@ -1,6 +1,7 @@
 package com.ustc.se.bbs.serviceimpl;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.ustc.se.bbs.dao.UserDao;
 import com.ustc.se.bbs.entity.User;
@@ -15,6 +16,8 @@ import com.ustc.se.bbs.service.UserService;
  * @UpdateTime 2017年5月3日
  *
  */
+
+@Service("UserService")
 public class UserServiceImpl implements UserService {
 
 	@Autowired
