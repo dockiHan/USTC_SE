@@ -15,7 +15,7 @@
     <slf4j.version>1.7.21</slf4j.version>  
     <log4j.version>1.2.16</log4j.version>  
     <!-- junit release number -->  
-    <junit.version>4.12</junit.version>  
+    <junit.version>4.13.1</junit.version>  
     <!-- mybatis release number -->  
     <mybatis.version>3.4.1</mybatis.version>
     <!-- mybatis-spring release number -->  
