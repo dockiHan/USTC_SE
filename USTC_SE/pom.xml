@@ -17,7 +17,7 @@
     <!-- junit release number -->  
     <junit.version>4.13.1</junit.version>  
     <!-- mybatis release number -->  
-    <mybatis.version>3.4.1</mybatis.version>
+    <mybatis.version>3.5.6</mybatis.version>
     <!-- mybatis-spring release number -->  
     <mybatis-spring.version>1.3.0</mybatis-spring.version>
     <!-- control encoding -->
